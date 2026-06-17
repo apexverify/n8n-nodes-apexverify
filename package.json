@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-apexverify",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "n8n community node for ApexVerify - Verify emails, phone numbers, and addresses with real-time accuracy. Keep your contact data clean, compliant, and reliable with our all-in-one suite.",
 	"license": "MIT",
 	"homepage": "https://apexverify.com/",
@@ -111,7 +111,7 @@
 	"n8n": {
 		"n8nNodesApiVersion": 1,
 		"strict": true,
-		 "credentials": [
+		"credentials": [
 			"dist/credentials/ApexVerifyApi.credentials.js"
 		],
 		"nodes": [
