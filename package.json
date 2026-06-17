@@ -94,7 +94,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/apexverify/n8n-nodes-apexverify.git"
+		"url": "git+https://github.com/apexverify/n8n-nodes-apexverify.git"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {
 		"build": "n8n-node build",
